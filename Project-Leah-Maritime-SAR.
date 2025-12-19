@@ -1,0 +1,4 @@
+- Added .github/ISSUE_TEMPLATE/field_report.yml for standardized feedback on Gemini RX performance in high-interference zones.
+- Integrated "At Sea" visual preset documentation (Dehaze/High Contrast focus).
+- Included civilian safety guide for signal loss recovery (Return-to-Home protocols).
+- Objective: Improve open-source tools for Search & Rescue (SAR) in extreme maritime environments.
