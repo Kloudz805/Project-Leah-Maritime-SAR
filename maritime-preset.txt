@@ -1,4 +1,21 @@
-- Added .github/ISSUE_TEMPLATE/field_report.yml for standardized feedback on Gemini RX performance in high-interference zones.
-- Integrated "At Sea" visual preset documentation (Dehaze/High Contrast focus).
-- Included civilian safety guide for signal loss recovery (Return-to-Home protocols).
-- Objective: Improve open-source tools for Search & Rescue (SAR) in extreme maritime environments.
+#$ TITLE: Project Leah-SAR (Maritime & Gemini RX)
+#$ AUTHOR: Kloudz805
+#$ DESCRIPTION: Optimized for over-water Search & Rescue operations. Includes multipathing mitigation for Gemini/True Diversity RX and high-wind filtering.
+#$ CATEGORY: Search and Rescue
+#$ FIRMWARE_VERSION: 4.4.0
+#$ KEYWORDS: Maritime, Gemini RX, Multipathing, SAR, High-Wind
+#$ DISCLAIMER: Always test signal reliability in a safe area before deploying over open water.
+
+# --- LINK QUALITY (LQ) & MULTIPATH MITIGATION ---
+set crsf_telemetry_ratio = 7
+set vtx_low_power_disarm = ON
+
+# --- COASTAL WIND FILTERING ---
+set dterm_lowpass_hz = 70
+set gyro_lowpass_hz = 85
+
+# --- LOW-RESOURCE BLACKBOX LOGGING ---
+set blackbox_p_ratio = 64
+set blackbox_mode = NORMAL
+
+save
