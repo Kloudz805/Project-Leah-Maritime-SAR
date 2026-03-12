@@ -32,18 +32,23 @@ set blackbox_p_ratio = 64
 set blackbox_mode = NORMAL
 
 save
+```
+## 🛠️ Recommended Hardware
+Maritime operations require specialized preparation. Best results are achieved using:
+* **Receivers:** True Diversity / Gemini RX (e.g., BetaFPV SuperD, Radiomaster Bandit).
+* **Protection:** 100% Conformal Coating on all FC, ESC, and VTX components. 
+* **High-Output VTX:** Capable of pushing maximum legal output power to punch through coastal haze.
 
- ```
-🛠️ Recommended Hardware
-​Maritime operations require specialized preparation. Best results are achieved using:
-​Receivers: True Diversity / Gemini RX (e.g., BetaFPV SuperD, Radiomaster Bandit).
-​Protection: 100% Conformal Coating on all FC, ESC, and VTX components.
-​High-Output VTX: Capable of pushing maximum legal output power to punch through coastal haze.
-​🗺️ Roadmap
-​[x] Gemini RX baseline signal optimization
-​[ ] High-wind PID adjustments for 7" frames
-​[ ] Integration with Project Exocoetus maritime AI-vision detection
-​[ ] Telemetry recovery protocols for water-ditching scenarios
-​⭐️ Support the Project!
-​If this maritime preset helped you maintain a vital link over water, please consider hitting the Star button at the top right of this repository. It helps push this tool up in the algorithm so it reaches the coastal operators who need it most!
-​Built to save lives. 🇺🇦
+## 🗺️ Roadmap
+- [x] Gemini RX baseline signal optimization
+- [ ] High-wind PID adjustments for 7" frames
+- [ ] Integration with Project Exocoetus maritime AI-vision detection
+- [ ] Telemetry recovery protocols for water-ditching scenarios
+
+---
+### ⭐️ Support the Project!
+If this maritime preset helped you maintain a vital link over water, please consider hitting the **Star** button at the top right of this repository. It helps push this tool up in the algorithm so it reaches the coastal operators who need it most!
+
+*Built to save lives. 🇺🇦*
+
+​
